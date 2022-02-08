@@ -21,6 +21,7 @@ namespace API
             Configuration = configuration;
         }
 
+        private static IKernel
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
